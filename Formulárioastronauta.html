@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torne um Astronauta</title>
+</head>
+<body>
+    <div>
+        <header>
+            <nav>
+                <a href="Spacex.html">
+                    <img src="logo.png" width="250" height="50"></a>
+                <a href="Naves.html">
+                    Nossas aeronaves 
+                </a> / 
+                <a href="Formulárioastronauta.html">
+                    Vire um Astronauta parceiro
+                </a>
+            </nav>
+        </header>
+    </div><hr>
+    <div>
+        <h2>Seu sonho é se tornar um Astronauta?</h2>
+        <p>Cadastre no nosso processo seletivo de jovens astronautas e concorra a cursos com indicação direta para nossas vagas para vajar p/ espaço à estudo.</p><br>
+        <form action="text">
+            Nome: 
+            <input type="text" name="nome" id="name" placeholder="Digite seu nome completo" >
+            -Email 
+            <input type="email" name="email" id="email" placeholder="astrounata1@gmail.com"><br><br>
+            Spaceship:
+            <select name="Nave">
+                <option value="&nbsp;"></option>
+                <option value="Falcon 9">Falcon 9</option>
+                <option value="Falcon New">Falcon New</option>
+            </select>
+            -Type de Serviço
+            <input type="search" name="service" id="service" placeholder="Digite" list="services">
+            <datalist id="services">
+                <option value="Jovem Aprendiz">Jovem Aprendiz</option>
+                <option value="Estagiario">Estagiario</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Estudante">Estudante</option>
+            </datalist> <br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</body>
+</html>
